@@ -1,0 +1,172 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "windows.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// ??????? (??????) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG2 DIALOGEX 0, 0, 217, 266
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,36,60,148,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Сохранить",IDOK,59,217,91,14
+    GROUPBOX        "Форма регистрации",-1,7,19,203,228
+    LTEXT           "Логин",-1,36,46,39,10
+    EDITTEXT        IDC_EDIT3,36,100,148,14,ES_AUTOHSCROLL
+    LTEXT           "Пароль",-1,36,84,39,10
+    EDITTEXT        IDC_EDIT4,36,140,148,14,ES_AUTOHSCROLL
+    LTEXT           "ФИО",-1,36,126,39,10
+    EDITTEXT        IDC_EDIT5,36,180,148,14,ES_AUTOHSCROLL
+    LTEXT           "Возраст",-1,36,166,39,10
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 231, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Взаимодействие с дополнительным диалогом"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Добро пожаловать!",IDC_STATIC,7,32,217,134,BS_CENTER
+    PUSHBUTTON      "Регистрация",IDC_BUTTON2,36,71,161,17
+    PUSHBUTTON      "Авторизация",IDC_BUTTON3,35,94,161,17
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,125,118,50,14
+    EDITTEXT        IDC_EDIT1,98,57,152,15,ES_AUTOHSCROLL
+    LTEXT           "Логин",-1,59,59,24,8
+    EDITTEXT        IDC_EDIT3,98,78,152,15,ES_AUTOHSCROLL
+    LTEXT           "Пароль",-1,59,79,24,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // ??????? (??????) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ?????????? (???????) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_UKR)
+LANGUAGE LANG_UKRAINIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""windows.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // ?????????? (???????) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
